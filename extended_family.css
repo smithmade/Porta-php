@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* contributors.css */
+
+.header {
+	padding-top:51px;
+	padding-bottom:43px;
+	/*text-align:center;*/
+	padding-left:299px;
+}
+
+.coin {
+	top: 30px;
+}
+
+.column {
+	padding-left:309px;
+}
+
+.column_2 {
+	left: 678px;
+	top: 542px;
+	position: absolute;
+}
+
+div.column img {
+	/*padding-bottom:20px;*/
+	margin-left:-10px;
+}
+
+p.question {
+	text-align:left;
+	width:46%;
+	color:#7a3326;
+	font-size:21px;
+	padding-left:285px;
+	font-weight:500;
+	padding:0;
+}
+
+p.answer {
+	text-align:left;
+	width:43%;
+	color:#000;
+	font-size:17px;
+	padding-left:285px;
+	font-weight:400;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:500;
+	padding:0;
+}
+
+div.column_2 p.answer {
+	text-align:left;
+	width:300px;
+	color:#000;
+	font-size:18px;
+	padding-left:285px;
+	font-weight:400;
+	margin-top:-7px;
+	padding:0;
+}
+
+p.question span {
+	font-variant:small-caps;
+	font-size:20px;
+}

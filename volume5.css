@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* contributors.css */
+
+body {
+	background:url(images/bg_full2.jpg) top left repeat;
+
+}
+
+div#sidebar {
+	min-height:1475px;
+}
+
+div#content {
+	height:1475px;
+	/*width: 1077px;*/
+}
+
+.coin {
+	top:9px;
+}
+
+
+#dates {
+	padding-left:450px;
+	margin-bottom: -76px;
+}
+
+div#dates img {
+	padding-top:0px;
+}
+
+div#dates a {
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 6px;
+padding-bottom: 0px;
+}
+
+div#dates a:hover{
+	
+}
+
+div#dates .active{	
+}
+
+.header {
+	padding-top:55px;
+	padding-bottom:16px;
+	text-align:center;
+	padding-right:2em;
+}
+
+div#intro {
+	background:url(images/intro_box.png) no-repeat top center;
+	width:486px;
+	height:263px;
+	margin-left:457px;
+	margin-top:-110px;
+}
+
+div#intro p {
+	color:#FFF;
+	padding-top:32px;
+	padding-left:70px;
+	width:74%;
+	font-family:Garamond, serif;
+	font-size:16px;
+	font-weight:400;
+
+}
+
+div#intro p span {
+	font-weight:600;
+}
+
+div#intro p span a {
+	color:#FFF;
+}
+
+div#dinner_text {
+	/*text-align:center;*/
+	padding-top:40px;
+	/*padding-left:368px;*/
+}
+
+div#dinner_text_intro {
+	/*text-align:center;*/
+	padding-top:40px;
+	padding-left:398px;
+}
+
+
+#chapters {
+	text-align:center;
+	padding-top:15px;
+}
+
+#chapters a {
+	padding-right:.5em;
+	padding-left:.5em;
+	padding-bottom:8px;
+	width:77px;
+}
+
+#chapters a:hover {
+	border-bottom:solid #000000 2px;
+}
+
+#chapters a img {
+	margin:0 1em 0 1em;
+}
+
+#chapters a:last-child {
+	margin-right:2em;
+}
+
+.chap_fix {
+	position:relative;
+	top:4px;
+	padding-bottom:4px !important;
+}
+	
+#vol5_content {
+	text-align:center;
+	margin-top:5.4em;
+}
+
+#vol5_meat {
+	width:54%;
+	margin-left:19.8em;
+	font-size:18px;
+	padding-top:4.6em;
+	line-height:30px;
+}
+
+.containing {
+	float:left;
+	padding:2em 2em 1em 0;
+}
+
+.torch {
+	float:right;
+	padding:1em 1em 0 1em;
+}
+
+.just {
+	float:left;
+	margin-top:-6em;
+}
+
+.hearth {
+	margin-top:-1em;
+	margin-left:1em;
+}
+
+.blind_beast {
+	margin:1em 0 0 0;
+}
+
+.clocks {
+	float:right;
+	padding: 1.4em 0 0 2em;
+	margin-left: -1em;
+}
+
+.rate {
+	float:left;
+	padding:1em 0 0 0;
+	margin:0 0 1em 0;
+}
+
+#vol5_meat p {
+}
+
+.one_must {
+	margin-top:4em;
+}
+
+.briefs {
+	width:100%;
+}
+
+.blind_compassion {
+	float:left;
+	padding:1em 2em 1em 0;
+}
+
+.davinci {
+	float:left;
+}
+
+.bull_harmony {
+	float:left;
+	padding:2em 2em 2em 0;
+}
+
+.wine_pizza {
+	width:100%;
+}
+
+.food_drink {
+	text-align:center;
+	padding:2em 0 0 2em;
+}
+
+.sweet_spot {
+	float:right;
+}
+
+.big_red {
+	font-size:22px;
+	color:#ef4036;
+	font-weight:bold;
+}
+
+.stretchers {
+	float:left;
+	padding:.4em 2em 0em 0;
+}
+
+.egg_pies {
+}
+
+.chap_active {
+	border-bottom:solid #000000 2px;
+}
+
+.p_fix_chap3 {
+	margin-top:-.3em;
+}
+
+.p_fix_chap4 {
+	padding-top:.6em;
+}

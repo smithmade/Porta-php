@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* contributors.css */
+
+body {
+	background:url(images/bg_full2.jpg) top left repeat;
+
+}
+
+div#sidebar {
+	min-height:2975px;
+}
+
+div#content {
+	height:2975px;
+	/*width: 1077px;*/
+}
+
+.coin {
+	top: 78.8rem;
+}
+
+#dates {
+	padding-left:367px;
+	margin-bottom: -76px;
+}
+
+div#dates img {
+	padding-top:0px;
+}
+
+div#dates a {
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 6px;
+padding-bottom: 0px;
+}
+
+div#dates a:hover{
+	
+}
+
+div#dates .active{	
+}
+
+.header {
+	padding-top:55px;
+	padding-bottom:16px;
+	padding-left:499px;
+	/*text-align:center;*/
+}
+
+div#intro {
+	background:url(images/intro_box.png) no-repeat top center;
+	width:486px;
+	height:263px;
+	margin-left:457px;
+	margin-top:-110px;
+}
+
+div#intro p {
+	color:#FFF;
+	padding-top:32px;
+	padding-left:70px;
+	width:74%;
+	font-family:Garamond, serif;
+	font-size:16px;
+	font-weight:400;
+
+}
+
+div#intro p span {
+	font-weight:600;
+}
+
+div#intro p span a {
+	color:#FFF;
+}
+
+div#dinner_text {
+	/*text-align:center;*/
+	padding-top:40px;
+	/*padding-left:368px;*/
+}
+
+div#dinner_text_intro {
+	/*text-align:center;*/
+	padding-top:40px;
+	padding-left:298px;
+}
+
+div#dinner_text_intro img {
+	padding-bottom:5px;
+}
+
+a.cheese_sprite {
+	background:url(images/cheese_sprite_active.png);
+	}

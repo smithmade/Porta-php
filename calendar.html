@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Porta</title>
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="instagram.css" type="text/css" rel="stylesheet" media="screen" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="stylesheet" href="jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+<link rel="stylesheet" href="flex/flexslider.css" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.fancybox.pack.js?v=2.0.5"></script>
+<script type="text/javascript" src="flex/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<script type="text/javascript">
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "fade",
+	controlNav: false,
+	directionNav: true,
+	slideshowSpeed: 6000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+	animationSpeed: 600,
+	pauseOnHover: true, 
+  });
+});
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+$('[title]').each( function() {
+    var $this = $(this);
+    $this.data('title',$this.attr('title'));
+    $this.removeAttr('title');
+});
+
+$('a').click( function() {
+    var $this = $(this);
+    var title = $this.data('title');
+});
+</script>
+
+
+<div id="wrapper">
+  <div id="sidebar">
+    <div id="sidebar_content">
+      <div class="header_top"><img src="images/header_top.jpg" alt="" /></div>
+      <a href="index.html"><img class="logo" src="images/sidebar_logo.jpg" alt=""/></a> <img class="hr" src="images/hr.jpg" alt="" />
+      <div><img src="images/menus.jpg" alt="" /></div>
+    <div class="sidebar_links"> <a href="lunch.html">Lunch</a>|<a href="brunch.html">Brunch</a>|<a href="dinner.html">Dinner</a><br /><a href="desserts.html">Desserts</a>|<a href="drinks.html">Drinks</a></div>
+       <div class="hr"><img src="images/hr.jpg" alt="" /></div>
+       <div><img src="images/about.jpg" alt="" /></div>
+       <div class="sidebar_links"> <a href="faq.html">FAQ</a>|<a href="extended_family.html">Extended Family</a><br />People&nbsp;&nbsp;<span class="people"><a href="grace.html">Grace</a><a href="paul.html">Paul</a><a href="freddi.html">Freddi</a></span></div>
+       <div class="private_gatherings"><a class="private_gatherings_sprite" href="private_gatherings.html">&nbsp;</a></div>
+       <div class="calendar"><a class="calendar_sprite" href="calendar.html">&nbsp;</a></div>
+       <div class="dinner_party"><a class="dinner_party_sprite" href="dinner_party.html">&nbsp;</a></div>
+       <div class="goods"><a class="goods_sprite" href="goods.html">&nbsp;</a></div>
+       <div class="hr"><img src="images/hr.jpg" alt="" /></div>
+
+       <div id="essay_series"><img src="images/porta_essay_series.png" alt="" /></div>
+       <a href="contributors.html" class="contributors2"><img src="images/contributors2.png" alt="Contributors" class="contributors2" /></a>
+	   <div class="volumes">
+       <a href="intro.html"><img src="images/vol1.png" alt="Vol1" /></a> <a href="intro_2.html"><img src="images/vol2.png" alt="Vol2" /></a> <a href="intro_3.html"><img src="images/vol3.png" alt="Vol3" /></a><br />
+       <a href="intro_4.html"><img src="images/vol4.png" alt="Vol4" /></a> <a href="intro_5.html"><img src="images/vol5.png" alt="Vol5" /></a> <img src="images/vol_blank.png" alt="Vol Blank" />
+       </div>
+ <!--      <div class="porta_national_market"><a class="porta_national_market_sprite" href="porta_national_market.html">&nbsp;</a></div>-->       <div class="sidebar_img"><img src="images/happy_hour.png" alt="" /></div>
+       <div class="hours_img"><img src="images/hours2.jpg" alt="" /></div>
+       <div class="address_img"><img src="images/address.png" alt="" /></div>
+	   <div class="phone_number">732-776-7661</div>
+       <div class="hr"><img src="images/hr_dash.png" alt="" /></div>
+       <div class="mail_link"><a href="mailto:info@pizzaporta.com">info@pizzaporta.com</a></div>
+       <div class="porta_national_park_img"><a class="porta_national_park_sprite" href="porta_national_park.html">&nbsp;</a></div>
+      <div class="mail_link"><a href="https://twitter.com/pizzaporta">@pizzaporta</a></div>
+        
+    </div>
+  </div>
+  	<div id="content">
+	<div id="tumblelog">
+    <img class="cal_head" src="images/header_calendar.png" alt="Calendar" />
+
+    <div class="item col1"><img src="instagram/2/1.jpg" alt="" /></div>
+    <div class="item col2"><iframe src="http://player.vimeo.com/video/57816645?autoplay=0" frameborder="0"></iframe></div>
+    <div class="item col2">
+    <!-- slider -->
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <a href="images/7ways.jpg" class="fancybox"><img src="images/7ways.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7monday.jpg" class="fancybox"><img src="images/7monday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7tuesday.jpg" class="fancybox"><img src="images/7tuesday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7wednesday.jpg" class="fancybox"><img src="images/7wednesday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7thursday.jpg" class="fancybox"><img src="images/7thursday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7friday.jpg" class="fancybox"><img src="images/7friday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7saturday.jpg" class="fancybox"><img src="images/7saturday.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="images/7sunday.jpg" class="fancybox"><img src="images/7sunday.jpg" alt="" /></a>
+            </li>
+          </ul>
+        </div>        
+    </div>
+    <div class="item col1"><img src="instagram/2/2.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/3.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/4.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/5.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/6.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/7.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/2/8.jpg" alt="" /></div>
+    <div class="item col2"><a href="images/abbot_lodge.jpg" class="fancybox"><img src="instagram/abbot_lodge_438.jpg" alt="" /></a></div>
+    <div class="item col1 up"><img src="instagram/2/9.jpg" alt="" /></div>
+
+    <div class="item col1 up"><img src="instagram/2/10.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/1/3.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/1/7.jpg" alt="" /></div>
+    <div class="item col1"><img src="instagram/1/8.jpg" alt="" /></div>
+
+    </div>
+    </div>
+    <div id="footer"><img src="images/bg_footer.png" alt="Footer" /></div>
+
+</div>
+
+
+</body>
+</html>

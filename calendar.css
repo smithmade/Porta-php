@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* contributors.css */
+
+body {
+	background:url(images/bg_full2.jpg) top left repeat;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+div#content{
+	height:1550px;
+	/*width:1033px;*/
+}
+
+
+div#sidebar{
+	height:1550px;
+
+}
+
+div#sidebar a:hover{
+	text-decoration:none;
+}
+
+.header {
+	padding-top:66px;
+	padding-bottom:50px;
+	/*text-align:center;*/
+	left:283px;
+	position:absolute;
+}
+
+
+.month {
+	top: 127px;
+	left: 611px;
+	position: absolute;
+}
+
+.days {
+	padding-left:58px;
+	top:204px;
+	position:relative;
+}
+
+div#grid {
+	height:520px;
+	background:url(images/grid.png) top left no-repeat;
+	left:276px;
+	top:211px;
+	position:relative;
+	}
+
+div#arrows {
+	left: 363px;
+	top: 226px;
+	position: relative;
+}
+
+div#arrows img {
+	padding-right:23px;
+}
+
+ul#dates_row_1 {
+	position: relative;
+	left: -192px;
+	top: 75px;
+}
+
+ul#dates_row_1 li {
+	padding-right:96px;
+}
+
+ul#dates_row_2 {
+	position: relative;
+	left: -192px;
+	top: 136px;
+}
+
+ul#dates_row_2 li {
+	padding-right:89px;
+}
+
+ul#dates_row_3 {
+	position: relative;
+	left: -198px;
+	top: 198px;
+}
+
+ul#dates_row_3 li {
+	padding-right:89px;
+}
+
+ul#dates_row_4 {
+	position: relative;
+	left: -198px;
+	top: 260px;
+}
+
+ul#dates_row_4 li {
+	padding-right:89px;
+}
+
+ul#dates_row_5 {
+	position: relative;
+	left: -198px;
+	top: 320px;
+}
+
+ul#dates_row_5 li {
+	padding-right:89px;
+}
+
+
+div#legend {
+	font-size: 22px;
+	position: absolute;
+	left: 285px;
+	top: 772px;
+}
+
+.porta_national_park {
+	color:#9b8579 !important;
+}
+
+a.porta_national_park {
+	color:#9b8579;
+	font-weight:bold;
+}
+
+.the_monk {
+	color:#1b75bc;
+}
+
+.the_abbot {
+	color:#be1e2d;
+}
+
+p.question {
+	text-align:left;
+	width:46%;
+	color:#7a3326;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:500;
+	padding:0;
+}
+
+p.answer {
+	text-align:left;
+	width:318px;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:50%;
+	color:#7a3326;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:500;
+	padding:0;
+}
+
+div.column_2 p.answer {
+	text-align:left;
+	width:318px;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div#calendar_events {
+	position:absolute;
+	left: 239px;
+	top: 223px;
+}
+
+div#tuesday {
+	padding-left:204px;
+	margin-top:-42px;
+}
+
+span.gluten {
+	line-height:105px;
+}
+
+div#wednesday {
+	padding-left:309px;
+	margin-top:-420px;
+}
+
+span.tricycle {
+	line-height:105px;
+}
+
+span.tricycle_time {
+	line-height:105px;
+}
+
+div#table {
+	position:absolute;
+	left: 281px;
+	top: 233px;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#FFF;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+.august {
+	left:570px;
+}

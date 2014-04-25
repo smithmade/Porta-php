@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* contributors.css */
+
+body {
+	background:url(images/bg_full2.jpg) top left repeat;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+div#content, div#sidebar{
+	height: 2068px;		
+}
+
+
+div#sidebar a:hover{
+	text-decoration:none;
+}
+
+.header {
+	padding-top:66px;
+	padding-bottom:50px;
+	/*text-align:center;*/
+	left:283px;
+	position:absolute;
+}
+
+.coin {
+	top: 30px;
+	top: 354px;
+}
+
+.item {
+  margin: 3px;
+  float: left;
+  width:auto;
+}
+
+div#container {
+	width:auto;
+	position:relative;
+}
+
+div#tumblelog {
+	padding-left: 301px;
+	padding-top: 7.4em;
+}
+
+#tumblelog .col1 { width: 216px; }
+#tumblelog .col2 { width: 438px; }
+#tumblelog .col3 { width: 628px; }
+#tumblelog .col1x2 { width: 216px;}
+#tumblelog .col2x1 { width: 438px;}
+
+
+div#tumblelog .col1 img {
+	max-width:216px;
+	max-height:216px;
+}
+
+
+div#tumblelog .col1x2 img {
+	max-width:438px;
+	position:absolute;
+	overflow:hidden;
+	clip:rect(0 216px 438px 0)
+}
+
+div#tumblelog .col2x1 img {
+	max-width: 100%;
+}
+
+.giffy {
+	max-width:216px;
+	max-height:438px;	
+}
+
+div#tumblelog .col2 img {
+/*	max-width:438px;
+	clip: rect(0px 438px 438px 0px);
+	overflow:hidden;
+	position:absolute;
+*/
+	width: 438px;
+}
+
+.2x2{
+	clip: rect(0px 438px 438px 0px);
+	overflow:hidden;
+	position:absolute;
+}
+
+
+.col2 iframe {
+	 width:388px;
+	 height:166px;
+	 padding:25px;
+	 background: url(images/geology-widget-bg.jpg) center center no-repeat;
+	 background-size: cover;
+}
+
+img.1x2 {
+	max-width:438px;
+	position:absolute;
+	overflow:hidden;
+	clip:rect(0 216px 438px 0)
+}
+
+.up {
+	margin-top:-219px;
+}
+
+.up + .up {
+	margin-left: 225px;
+}
+
+.up-more {
+	margin-top:-438px !important;
+}
+
+.down {
+	position: relative;
+	top:222px;
+}
+
+.left {
+	margin-left:225px;
+}
+
+img.cal_head {
+	padding-bottom:1em;
+	position: relative;
+	left: -.15em;
+}
+
+.four-thirty-eight > .flex-direction-nav a {
+	margin: 204px 0 0;
+}
+
+.four-thirty-eight > .flex-direction-nav .flex-prev {
+	left: -36px;
+	margin-left: -438px;
+}

@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* contributors.css */
+
+
+div#content {
+	width:1085px;
+}
+
+
+div#sidebar, div#content {
+	height: 1744px;
+}
+
+.coin {
+	/*	top: 153px;	*/
+}
+
+.header {
+	padding-top:42px;
+	padding-bottom:50px;
+	padding-left:316px;
+}
+
+.header img {
+	width: 673px;
+	margin-bottom: 18px;
+}
+
+.column {
+	left:316px;
+	margin-top:-57px;
+	position:absolute;
+}
+
+.column_2 {
+	left:584px;
+	top:175px;
+	position:absolute;
+}
+
+.column_3 {
+	left:796px;
+	top:273px;
+	position:absolute;
+}
+
+div.column img {
+	/*padding-bottom:20px;*/
+	margin-left:-10px;
+}
+
+p.question {
+	text-align:left;
+	width:100%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_2 p.menu_item {
+	text-align:left;
+	width:82%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_2 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+
+p.question span {
+	font-variant:small-caps;
+	font-size:25px;
+	/*border-bottom:thin solid #000;*/
+	/*padding-bottom:10px;*/
+}
+
+div.column_3 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_3 p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_3 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div.hr_menu {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 236px;
+	overflow: hidden;
+}
+
+div.hr_menu_pizza {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 404px;
+	overflow: hidden;
+}
+
+div#sandwiches {
+	margin-top:980px;
+	width:1000px;
+	display:none;
+}
+
+div#sandwiches .column {
+	position:relative;
+}
+
+@-moz-document url-prefix() {
+	div#sandwiches {
+		position:relative;
+		top:950px;
+		width:1008px;
+	}
+}
+
+div#sandwiches div.column_2 {
+	position:relative;
+	top:43px;
+	left:340px;
+}
+
+div#sandwiches div.column_3 {
+	position:relative;
+	top:-270px;
+	left:552px;
+}
+
+div.hr_menu_sandwiches {
+	background:url(images/hr_menu_sandwiches.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 675px;
+	overflow: hidden;
+}
+
+div.goat {
+	margin-top:-12px;
+	margin-left:245px;
+}
+
+div.salad_blurb {
+	width: 15.05em;
+	border-bottom: 1px solid #000000;
+	margin-top: -2.1em;
+	margin-bottom: 2em;
+	font-style: italic;
+	font-size: 120%;
+}
+
+.patriot {
+	padding-top:9.7em;
+}
+
+.bottom {
+	margin:3em 0 0 0;
+}
+
+.ps {
+	position: relative;
+	top: 2.6em;
+}
+
+.ps2 {
+	position: relative;
+	top: 6.6em;
+}
+
+#specials {
+	margin-top: 93px;
+	float: left;
+	position: relative;
+	left: 0;
+}
+
+@-moz-document url-prefix() { 
+  #specials {
+     margin-top:801px;
+  }
+}
+
+#specials .column {
+	position: relative;
+	left: 0;
+	margin: 0;
+}
+
+#specials .column_2 {
+	position: relative;
+	left: 1.2em;
+	top:-12.3em;
+	margin: 0;
+	float:right;
+}
+
+#specials div.salad_blurb {
+	width:16.7em;
+	margin-top: -2.1em;
+	border-top: none;
+	padding:0.5em 0;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.sambos {
+	margin-top: 49px;
+}
+
+.sides {
+	margin-top: 532px;
+	margin-left: 316px;
+	border-top: 1px solid #000000;
+	padding-top: 3em;
+	width: 200px;
+}
+
+.betweener {
+
+}
+
+div.hr_menu.specials {
+	width:180px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	div#sandwiches {
+		margin-top: 1000px;
+	}
+
+	div#sandwiches div.column_3 {
+		top: -303px;
+	}
+
+	div#sandwiches div.column_3 p.description {
+		position:relative;
+		left:0px
+	}
+
+	div.goat p.menu_item {
+		color: #000;
+		font-size: 8px !important;
+		position:relative;
+		top:-10px;
+	}
+
+	div#content, div#sidebar {
+		height:1700px;
+	}
+
+	div.salad_blurb p br {
+		display:none;
+	}
+
+	#specials div.salad_blurb p br {
+		display:block;
+	}
+
+
+	#specials {
+		margin-top:71.8em;
+	}
+
+	.sambos {
+		margin-top:15.05em;
+	}
+
+	.sides {
+		margin-top: 45em;
+	}
+
+	.column_3 {
+		width: 100%;
+	}
+
+	.coin {
+		top: 205px;
+	}
+
+}

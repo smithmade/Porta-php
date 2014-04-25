@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* dessert.css */
+
+
+div#content {
+	width:1085px;
+}
+
+div#pasta {
+	width:1085px;
+	padding-top:100px;
+}
+
+.coin {
+	top: 30px;
+}
+
+.header {
+	/*padding-top:42px;*/
+	padding-bottom:50px;
+	margin-left:309px;
+}
+
+.header img {
+	width: 413px;
+	margin-bottom: -46px;
+}
+
+.column {
+	margin-left:30px;
+	padding-top:33px;
+}
+
+.column_2 {
+	left:520px;
+	top:543px;
+	/*margin-top:-722px;*/
+	position:absolute;
+}
+
+.column_3 {
+	left:766px;
+	top:106px;
+	position:absolute;
+}
+.column_4 {
+	left:766px;
+	top:543px;
+	position:absolute;
+}
+
+
+div.column img {
+	/*padding-bottom:20px;*/
+	margin-left:-10px;
+}
+
+p.question {
+	text-align:left;
+	width:46%;
+	color:#7a3326;
+	font-size:27px;
+	margin-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+p.menu_item {
+	text-align:left;
+	width:40%;
+	color:#000;
+	font-size:14px;
+	margin-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+	text-transform:uppercase;
+}
+
+p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*margin-left:285px;*/
+	font-weight:500;
+	margin-top:-13px;
+	margin-left:30px;
+	padding-bottom:8px;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	margin-left:30px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_2 p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	margin-left:30px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_2 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*margin-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+
+p.question span {
+	font-variant:small-caps;
+	font-size:25px;
+	/*border-bottom:thin solid #000;*/
+	padding-bottom:10px;
+	line-height:21px;
+}
+
+div.column_3 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	margin-left:30px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_3 p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	margin-left:30px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_3 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*margin-left:285px;*/
+	font-weight:500;
+	margin-top:-13px;
+	padding-bottom:8px;
+}
+
+div#pasta div.column {
+	margin-left:30px;
+	margin-top:-50px;
+	position:absolute;
+}
+
+div#pasta div.column_2 {
+	/*margin-left:30px;*/
+	/*margin-top:34px;*/
+	top:-436px;
+	/*left:554px;*/
+	/*margin-left:0px;*/
+	/*margin-top:0px;*/
+	position:relative;
+	clear:both;
+}
+
+div#pasta div.column_3 {
+	/*margin-left:796px;*/
+	top:1070px;
+	position:absolute;
+}
+
+div.column p.description {
+	margin-left:286px;
+}
+
+.special_pasta {
+	padding-top:129px !important;
+}
+
+.special_pasta2 {
+	padding-top:165px !important;
+}
+
+p.description span {
+	font-weight:bold;
+	font-style:italic;
+}
+
+p.menu_item span {
+	line-height:30px;
+}
+
+div.hr_menu {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 71px;
+	position: relative;
+	top: -19px;
+	width: 148px;
+	overflow: hidden;
+	margin-bottom:-19px;
+}
+
+div.hr_menu_coffee {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 30px;
+	position: relative;
+	top: -19px;
+	width: 156px;
+	overflow: hidden;
+	margin-bottom:-19px;
+}
+
+div.hr_menu_desserts {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 30px;
+	position: relative;
+	top: -19px;
+	width: 194px;
+	overflow: hidden;
+	margin-bottom:-19px;
+}
+
+div.hr_menu_cigars {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 30px;
+	position: relative;
+	top: -19px;
+	width: 194px;
+	overflow: hidden;
+	margin-bottom:-19px;
+}
+
+div.column_4 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	margin-left:30px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_4 p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	margin-left:30px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_4 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*margin-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+.column, .column_2, .column_4 {
+	margin-top:4em;
+}
+
+}

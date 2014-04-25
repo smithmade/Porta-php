@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'AdobeGaramondProRegular';
+    src: url('agaramondpro-regular.eot');
+    src: url('agaramondpro-regular.eot') format('embedded-opentype'),
+         url('agaramondpro-regular.woff') format('woff'),
+         url('agaramondpro-regular.ttf') format('truetype'),
+         url('agaramondpro-regular.svg#AdobeGaramondProRegular') format('svg');
+}
+
+body {
+	/* Font normalization attempt */
+/*	font-family:Garamond, Garamond,	"Garamond Antiqua",	times, serif; */
+	font-family:times, serif;
+	font-size:13px;
+	color:#000;
+	margin:0;
+	padding:0;
+	font-weight:400;
+	background:url(images/bg_full2.jpg) top left repeat;
+	border-top:#000 solid 3px;
+}
+
+body.dinner-party .p1, body.dinner-party .p2 {
+	font-family: times;
+}
+
+header {
+	display:none;
+}
+
+a {
+	border:none;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+
+div#sidebar a {
+	font-weight:normal;
+}
+
+img {
+	border:none;
+}
+
+a:hover {
+}
+
+h1 {
+	font-family:Garamond, serif;
+	font-size:25px;
+	font-weight:400;
+	color:#7a3326;
+}
+
+h2 {
+	font-family:Garamond, serif;
+	font-size:16px;
+/*	font-weight:550; */
+	color:#000;
+}
+
+ul, li {
+	list-style:none;
+	display:inline;
+	float:left;
+}
+
+ul {
+	/*width:1046px;*/
+}
+
+li {
+	position:relative;
+}
+
+div#wrapper {
+	width:1200px;
+}
+
+div#sidebar {
+	width:243px;
+	background:url(images/bg_sidebar.png) top right repeat-y;
+	/*border-top:#000 solid 4px;*/
+	float:left;
+	min-height: 1744px;
+	margin-left:2px;
+}
+
+.header_top {
+	margin-top:-13px;
+	padding-bottom:21px;
+}
+
+.logo {
+	margin-bottom:31px;
+	margin-left:2px;
+}
+
+div#content {
+	background:url(images/bg_content.png) top right repeat-y;
+	height: 1744px;
+	width: 1046px;
+}
+
+.hr {
+	margin-left:-1px;
+	padding-top:3px;
+	padding-bottom:6px;
+	z-index:999;
+}
+
+div#sidebar_content {
+	width:inherit;
+	padding-top:10px;
+	padding-right:3px;
+	margin-left:-3px;
+	text-align:center;
+	position: relative;
+	z-index: 999;
+}
+
+.test_copy {
+	font-variant:small-caps;
+}
+
+div.sidebar_links {
+	padding-top:3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:2px;
+	font-style:normal;
+}
+div.sidebar_links a{
+	padding-top:0px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:2px;
+	line-height: 19px;
+}
+
+div.sidebar_links a:hover{
+	background:url(images/rollover.png) repeat;
+}
+
+div#sidebar_links {
+	padding-top:3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:2px;
+}
+div#sidebar_links a{
+	padding-top:0px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:2px;
+	line-height: 19px;
+}
+
+div#sidebar_links a:hover{
+	background:url(images/rollover.png) repeat;
+}
+
+span.people a {
+	font-style:italic;
+	font-weight:700;
+	padding-right:4px !important;
+	padding-left:4px !important;
+}
+
+div.img_link a {
+	padding-top:16px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:4px;
+}
+
+div.img_link a:hover {
+	background:url(images/rollover.png) repeat;
+	padding-top:16px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:6px;
+
+}
+
+div#essay_series {
+	margin-top:22px;
+}
+
+div#essay_series img {
+	padding-bottom:1px;
+}
+
+div#essay_series a:hover {
+	background:url(images/rollover.png) repeat;
+}
+
+div#porta_national_market {
+	padding-top:20px;
+}
+
+div.sidebar_img {
+	margin-top:25px;
+}
+
+div.hours_img {
+	margin-top:17px;
+}
+
+div.address_img {
+	margin-top:23px;
+}
+
+div.phone_number {
+	font-size:15px;
+	font-weight:700;
+	margin-top:-8px;
+	margin-left:-8px;
+}
+
+div.mail_link {
+	font-style:italic;
+
+}
+
+div.mail_link a:hover {
+	background:url(images/rollover.png) repeat;
+	padding-top:4px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:4px;
+
+}
+
+div#footer {
+	/*margin-left:200px;*/
+}
+
+.private_gatherings {
+	padding-left:20px;
+	margin-bottom:-3px;
+}
+
+div.calendar {
+	padding-left:52px;
+	margin-bottom:-3px;
+}
+
+
+.dinner_party {
+	padding-left:52px;
+	margin-bottom:-3px;
+}
+
+.contributors {
+	padding-left:43px;
+	margin-bottom:-4px;
+}
+
+.goods {
+	padding-left:52px;
+	margin-bottom:-5px;
+}
+
+.volume1{
+	padding-left:32px;
+}
+
+.porta_national_market{
+	padding-left:52px;
+	padding-top:26px;
+}
+
+.porta_national_park_img {
+/*	padding-left:75px; */
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.porta_national_park_img img {
+	width: 100px;
+}
+
+
+a.calendar_sprite {
+	display: block;
+	width: 138px;
+	height: 36px;
+	text-decoration: none;
+	background:url(images/calendar_sprite.png)
+	}
+
+a.calendar_sprite:hover {
+	background-position: -138px 0;
+	}
+	
+a.private_gatherings_sprite {
+	display: block;
+	width: 199px;
+	height: 37px;
+	text-decoration: none;
+	background:url(images/private_gatherings_sprite.png)
+	}
+
+a.private_gatherings_sprite:hover {
+	background-position: -200px 0;
+	}
+	
+a.dinner_party_sprite {
+	display: block;
+	width: 138px;
+	height: 37px;
+	text-decoration: none;
+	background:url(images/dinner_party_sprite.png)
+	}
+
+a.dinner_party_sprite:hover {
+	background-position: -139px 0;
+	}
+	
+a.contributors_sprite {
+	display: block;
+	width: 155px;
+	height: 36px;
+	text-decoration: none;
+	background:url(images/contributor_sprite.png)
+	}
+
+a.contributors_sprite:hover {
+	background-position: -155px 0;
+	}
+
+a.goods_sprite {
+	display: block;
+	width: 138px;
+	height: 36px;
+	text-decoration: none;
+	background:url(images/goods_sprite.png);
+	background-position: 0 -2px;
+	}
+
+a.goods_sprite:hover {
+	background-position: -139px -2px;
+	}
+
+	
+a.volume1_sprite {
+	display: block;
+	width: 179px;
+	height: 23px;
+	text-decoration: none;
+	background:url(images/volume1_sprite.png)
+	}
+
+a.volume1_sprite:hover {
+	background-position: -179px 0;
+	}
+	
+a.porta_national_market_sprite {
+	display: block;
+	width: 142px;
+	height: 88px;
+	text-decoration: none;
+	background:url(images/porta_national_market_sprite.png)
+	}
+
+a.porta_national_market_sprite:hover {
+	background-position: -142px 0;
+	}
+	
+a.porta_national_park_sprite {
+	display: block;
+	width: 98px;
+	height: 99px;
+	text-decoration: none;
+	background:url(images/porta_national_park_sprite.png)
+	}
+
+a.porta_national_park_sprite:hover {
+	background-position: -100px 0;
+	}
+	
+span.sub_title {
+	font-size:21px !important;
+}
+
+div#chapter_bar {
+	position:relative;
+	left:58px;
+	padding-top:30px;
+}
+
+.volume2{
+	padding-left:32px;
+	padding-top:1px;
+}
+
+a.volume2_sprite {
+	display: block;
+	width: 179px;
+	height: 23px;
+	text-decoration: none;
+	background:url(images/volume2_sprite.png)
+	}
+
+a.volume2_sprite:hover {
+	background-position: -173px 0;
+	}
+
+.volume3{
+	padding-left:32px;
+	padding-top:1px;
+}
+
+a.volume3_sprite {
+	display: block;
+	width: 179px;
+	height: 23px;
+	text-decoration: none;
+	background:url(images/volume3_sprite.png)
+	}
+
+a.volume3_sprite:hover {
+	background-position: -173px 0;
+	}
+	
+.volume4{
+	padding-left:32px;
+	padding-top:1px;
+}
+
+a.volume4_sprite {
+	display: block;
+	width: 179px;
+	height: 23px;
+	text-decoration: none;
+	background:url(images/volume4_sprite.png)
+	}
+
+a.volume4_sprite:hover {
+	background-position: -154px 0;
+	}
+
+a.cheese_sprite {
+	display: block;
+	width: 110px;
+	height: 40px;
+	text-decoration: none;
+	background:url(images/cheese_sprite.png)
+	}
+
+a.cheese_sprite:hover {
+	background-position: -116px 0;
+	}
+
+a.pizza_sprite {
+	display: block;
+	width: 110px;
+	height: 40px;
+	text-decoration: none;
+	background:url(images/pizza_sprite.png);
+	position: relative;
+	left: 125px;
+	top: -40px;	
+	}
+
+a.pizza_sprite:hover {
+	background-position: -116px 0;
+	}
+
+a.pasta_sprite {
+	display: block;
+	width: 110px;
+	height: 40px;
+	text-decoration: none;
+	background:url(images/pasta_sprite.png);
+	position: relative;
+	left: 250px;
+	top: -80px;
+	}
+
+a.pasta_sprite:hover {
+	background-position: -116px 0;
+	}
+
+.contributors2 {
+	width:74%;
+	margin-top:2px;
+	padding-bottom:1px;
+}
+
+.contributors3 {
+	width:74%;
+	margin:-1px 0 -2px 0;
+}
+
+
+img.contributors2:hover {
+	background: url(images/vol_rollover_cont.png) repeat-x;		
+}
+
+.volumes {
+	width: 97%;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.volumes img:hover {
+	background: url(images/vol_rollover.png) repeat;
+}
+
+.volumes img {
+	max-width:24.5%;
+}
+
+.lh17 {
+	line-height:19px !important;
+}
+
+.padfix {
+	margin-top:-16px !important;
+}
+
+.dates-2 {
+	position: relative;
+	/*left: 140px;*/
+	left: 79px;
+}
+
+.weird-science-fix {
+	position:relative;
+	top:-3px;
+}
+
+#dates {
+	position: relative;
+	left: 79px;
+}
+
+div.singleSound {
+	margin-top: 27px !important;
+}
+
+body.intro-7 div#spotify {
+position: relative;
+top: -1032px;
+left: 349px;
+width: 350px;
+}
+
+body.intro-7 div#footer {
+	margin-top: -170px;
+}
+
+.coin {
+	position: relative;
+	top: 30px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+	opacity: .15;
+}
+
+
+
+
+.coin img {
+
+width: 145px;
+
+}

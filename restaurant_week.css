@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* contributors.css */
+
+
+div#content {
+	width:1085px;
+}
+
+.header {
+	padding-top:42px;
+	padding-bottom:50px;
+	padding-left:316px;
+}
+
+.column {
+	left:316px;
+	margin-top:-50px;
+	position:absolute;
+}
+
+.column_2 {
+	left:570px;
+	top:376px;
+	position:absolute;
+}
+
+.column_3 {
+	left:796px;
+	top:376px;
+	position:absolute;
+}
+
+div.column img {
+	/*padding-bottom:20px;*/
+	margin-left:-10px;
+}
+
+p.question {
+	text-align:left;
+	width:100%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-13px;
+	padding-bottom:8px;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_2 p.menu_item {
+	text-align:left;
+	width:82%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_2 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-13px;
+	padding-bottom:8px;
+}
+
+
+p.question span {
+	font-variant:small-caps;
+	font-size:25px;
+	/*border-bottom:thin solid #000;*/
+	/*padding-bottom:10px;*/
+}
+
+div.column_3 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_3 p.menu_item {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_3 p.description {
+	text-align:left;
+	width:100%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-13px;
+	padding-bottom:8px;
+}
+
+div.hr_menu {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 236px;
+	overflow: hidden;
+}
+
+div.hr_menu_pizza {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 404px;
+	overflow: hidden;
+}
+
+div#sandwiches {
+	position:relative;
+	top:760px;
+}
+
+div#sandwiches div.column_2 {
+	position:relative;
+	top:43px;
+	left:340px;
+}
+
+div#sandwiches div.column_3 {
+	position:absolute;
+	top:50px;
+	left:796px;
+}
+
+div.hr_menu_sandwiches {
+	background:url(images/hr_menu_sandwiches.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 675px;
+	overflow: hidden;
+}
+
+div.hr_menu_desserts {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 192px;
+	overflow: hidden;
+}
+
+div.hr_menu_entrees {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 192px;
+	overflow: hidden;
+}
+
+div.hr_menu_starters {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -20px;
+	width: 214px;
+	overflow: hidden;
+}

@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* contributors.css */
+
+/* Dinner Parties 
+============================= */
+
+.dp-nav {
+    padding-top: .5rem;
+	position: relative;
+	left: -1.25rem;
+	text-align: center;
+}
+
+.dp-nav img {
+    height: 19px;
+}
+
+.dp-nav a img {
+    height: 13px;
+    padding: 5px 10px 5px 10px;
+}
+
+.row-2 {
+	margin-top: -8px;
+}
+
+.row-2 a:last-of-type img {
+	height: 11px;
+	padding: 4px 10px 8px 10px;
+}
+
+.dp-nav a img:hover {
+    background-color: #e0d0b7;
+}
+
+.dinner-party .header-img img {
+    width: 674px;
+	margin-top: 2.53845em;
+	margin-bottom: 3.0769em;
+	margin-left: 4.3rem;
+}
+
+.next-dp img {
+    width: 639px;
+	margin-bottom: 2.0769em;
+	margin-left: 4.3rem;
+}
+
+.dp-landing-photo {
+	margin-left: 19.6rem;
+}
+
+.dp-hr {
+	margin-left: 4.3rem;
+	margin-top: 1.7rem;
+}
+
+p.p1 {
+	margin-left: 4.7rem;
+}
+
+img.pg-separator {
+    height: 22px !important;
+    position: relative;	
+    top: -.2rem;
+}
+
+
+div#sidebar, div#content {
+/*	height:1755px;		*/
+}
+
+.coin {
+	top: 30px;
+}
+
+div#dates img {
+	padding-top:6px;
+}
+
+div#dates a{
+	padding-top:8px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:4px;
+}
+
+div#dates a:hover{
+	
+	background:url(images/rollover.png) repeat center;
+}
+
+
+.header {
+	padding-top:10px;
+	padding-bottom:50px;
+	text-align:center;
+}
+
+div#intro {
+	background:url(images/intro_box.png) no-repeat top center;
+	width:486px;
+	height:263px;
+	margin-left:457px;
+	margin-top:-110px;
+}
+
+div#intro p {
+	color:#FFF;
+	padding-top:50px;
+	padding-left:70px;
+	width:74%;
+	font-family:Garamond,	 /* Windows */ Garamond,	 /* MacOS */ "Garamond Antiqua",	 /* Windows (HP printer) */ /* Fallback options */ times,	 /* Unix+X, MacOS */ serif;
+	font-size:16px;
+	font-weight:400;
+
+}
+
+div#intro p span {
+	font-weight:600;
+}
+
+div#intro p span a {
+	color:#FFF;
+}
+
+div#dinner_text {
+    text-align:center;
+    margin-top: -27px;
+}
+
+.november2012 {
+	text-align:left !important;
+	margin-left: 289px;
+}
+
+.november2012 img {
+	margin-left: .6em;
+	max-width:640px;
+	padding-bottom: 24px;
+}
+
+.dp-header {
+	margin-bottom: -9px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	opacity: .90;
+}
+
+.dp-hr {
+}
+
+.p1 {
+	font-size: 21px;
+	line-height: 26px;	
+	color: #82502c;
+	font-style: italic;
+	float: left;
+	display: inline-block;
+	margin-left: 7px;
+	text-indent: -8px;
+}
+
+.p2 {
+	font-size: 14px;
+/*	line-height: 16px;	*/
+	float: left;
+	margin-left: 32px;
+	margin-top: 24px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	div#intro p {
+		padding-top:20px;
+	}
+
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* contributors.css */
+
+div#content {
+	height:10465px;
+}
+
+div#sidebar {
+	height:10465px;
+}
+
+.coin {
+	top: 547rem;
+}
+
+div#intro {
+	background:url(images/intro_box.png) no-repeat top center;
+	width:486px;
+	height:263px;
+	margin-left:457px;
+	margin-top:-110px;
+}
+
+div#intro p {
+	color:#FFF;
+	padding-top:32px;
+	padding-left:70px;
+	width:74%;
+	font-family:Garamond, serif;
+	font-size:16px;
+	font-weight:400;
+
+}
+
+div#intro p span {
+	font-weight:600;
+}
+
+div#intro p span a {
+	color:#FFF;
+}
+
+div#dinner_text {
+	/*text-align:center;*/
+	padding-top:40px;
+	/*padding-left:368px;*/
+}
+
+div#dinner_text_intro {
+	/*text-align:center;*/
+	padding-top:54px;
+	padding-left:299px;
+}
+
+div.tattoo_copy {
+	position:relative;
+	top:-85px;
+}
+
+.tattoo_hr {
+	position:relative;
+	top:-3px;
+}
+
+body.intro-6 #tattoos img {
+	margin:4px 0 0 52px;
+}
+
+body.intro-6 #sidebar, body.intro-6 #content {
+	height:5987px;
+}
+
+body.intro-6 .coin {
+	top: 4470px;
+}
+
+body.intro-6 #tattoos img:first-child {
+	margin-top:0;
+}
+
+.maestro {
+	margin: 42px 0 7px 72px !important;
+}
+
+.copy {
+	width: 700px;
+	left: 402px;
+	position: relative;
+	text-align: left !important;
+	top: -475px;
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: -385px;
+	margin-top:29px;
+}
+
+.copy strong {
+	text-transform:uppercase;
+}
+
+audio {
+}
+
+.img-3-fix {
+	margin-top: -56px !important;
+}
+
+.vol-6 {
+	color:#e8e3d7;
+	position: relative;
+	top: -738px;
+	left: 160px;
+	font-style:italic;
+}

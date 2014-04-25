@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* contributors.css */
+
+.coin {
+	top: 340.7rem;
+}
+
+div#sidebar, div#content {
+	height: 7165px;
+}
+
+div#intro {
+	background:url(images/intro_box.png) no-repeat top center;
+	width:486px;
+	height:263px;
+	margin-left:457px;
+	margin-top:-110px;
+}
+
+div#intro p {
+	color:#FFF;
+	padding-top:32px;
+	padding-left:70px;
+	width:74%;
+	font-family:Garamond, serif;
+	font-size:16px;
+	font-weight:400;
+
+}
+
+div#intro p span {
+	font-weight:600;
+}
+
+div#intro p span a {
+	color:#FFF;
+}
+
+div#dinner_text {
+	/*text-align:center;*/
+	padding-top:40px;
+	/*padding-left:368px;*/
+}
+
+div#dinner_text_intro {
+	/*text-align:center;*/
+	padding-top:54px;
+	padding-left:299px;
+}
+
+.vol8-subheader {
+	width: 575px;
+	margin-top: 37px;
+	margin-left: 46px;
+	margin-bottom: 45px;
+}
+
+.sous-head {
+	margin-left: 314px;
+}
+
+.header_line {
+	width: 640px;
+	margin-left: 14px;
+	margin-bottom: 32px;
+}
+
+.sous-head img {
+	position: relative;
+}
+
+.sous-head img:nth-child(1) {
+	width: 639px;
+}
+
+.sous-head span {
+	position: relative;
+	top: -356px;
+	left: -5px;
+}
+
+span img {
+	width: 366px !important;
+}
+
+.sous-head img:nth-child(3){
+	left: 304px;
+	top: -277px;
+}
+
+.sous-head p {
+	font-size: 14px;
+	line-height: 20px;
+	position: relative;
+	left: 322px;
+	margin-top: -248px;
+	margin-bottom: 54px;
+}
+
+.sous-guts {
+	margin-left: 314px;
+}
+
+.sous-guts img {
+	width: 639px;
+	margin-bottom: 6px;
+}
+
+
+/* possible svg css */
+
+.header_line {
+	margin-bottom: 83px;
+}
+
+.sous-head {
+	background: #ece4d4;
+	width: 639px;
+	height: 411px;
+	margin-top: -51px;
+}
+
+.sous-head img:nth-child(1) {
+	width: 277px;
+	z-index: 2;
+}
+
+.sous-head img:nth-child(2) {
+	float: right;
+	top: -413px;
+}
+
+.sous-head img:nth-child(3) {
+	left: 25px;
+	top: -271px;
+}
+
+.sous-head p {
+	left: 307px;
+}
+
+.sous-guts {
+	position: relative;
+	top: -50px;
+}
+
+.laura.sous-head img:nth-child(3) {
+	top: -248px;
+}
+
+.laura.sous-head p {
+	top: 21px;
+}
+
+
+

@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* contributors.css */
+
+
+div#content {
+	width:1085px;
+	/*height:1590px;*/
+}
+
+div#sidebar, div#content {
+	height:1990px;
+}
+
+.coin {
+	top: 276px;
+}
+
+div#pasta {
+/*	width: 1085px;	*/
+	top: 4rem;
+	left: 268px;
+	position: absolute;
+
+}
+
+.header {
+	padding-top:51px;
+	padding-bottom:50px;
+	padding-left:295px;
+}
+
+.header img {
+	width: 229px;
+}
+
+.column {
+	position: absolute;
+	left: 300px;
+	top: 826px;
+}
+
+.column_2 {
+	padding-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	top: 40px;
+	left: 584px;
+}
+
+.column_3 {
+	padding-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	top: 57px;
+	left: 839px;
+}
+
+div.column img {
+	/*padding-bottom:20px;*/
+	margin-left:-10px;
+	margin-bottom: 10px;
+}
+
+p.question {
+	text-align:left;
+	width:46%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+p.menu_item {
+	text-align:left;
+	width:400px;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+p.description {
+	text-align:left;
+	width:400px;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div.hr_interview {
+	width:318px;
+	height:5px;
+	overflow:hidden;
+}
+
+div.column_2 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_2 p.menu_item {
+	text-align:left;
+	width:400px;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_2 p.description {
+	text-align:left;
+	width:400px;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+
+p.question span {
+	font-variant:small-caps;
+	font-size:25px;
+	/*border-bottom:thin solid #000;*/
+	padding-bottom:10px;
+	line-height:17px;
+}
+
+div.column_3 p.question {
+	text-align:left;
+	width:90%;
+	color:#7a3326;
+	font-size:27px;
+	padding-left:285px;
+	font-weight:600;
+	padding:0;
+}
+
+div.column_3 p.menu_item {
+	text-align:left;
+	width:400px;
+	color:#000;
+	font-size:14px;
+	padding-left:285px;
+	font-weight:600;
+	margin-top:-7px;
+	padding:0;
+}
+
+div.column_3 p.description {
+	text-align:left;
+	width:71%;
+	color:#000;
+	font-size:14px;
+	/*padding-left:285px;*/
+	font-weight:500;
+	margin-top:-10px;
+	padding-bottom:8px;
+}
+
+div#pasta div.column {
+	padding-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	left: 316px;
+	top: 940px;
+}
+
+div#pasta div.column_2 {
+	padding-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	top: 1026px;
+	left: 570px;
+}
+
+div#pasta div.column_3 {
+	padding-left:0px;
+	margin-top:0px;
+	position:absolute;
+	top: 1410px;
+	left: 316px;
+}
+
+div#pasta div.column_4 {
+	padding-left:0px;
+	margin-top:0px;
+	position:absolute;
+	top: 1496px;
+	left: 570px;
+}
+
+div.hr_menu {
+	background:url(images/hr_menu.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -10px;
+	width: 184px;
+	overflow: hidden;
+}
+
+div.hr_menu_plates {
+	background:url(images/hr_menu_sandwiches.png) top left no-repeat;
+	left: 0px;
+	position: relative;
+	top: -10px;
+	width: 448px;
+	overflow: hidden;
+}
+
+.extra_padding {
+	padding-top:10px !important;
+}
+
+div#sandwiches div.column_3 {
+	padding-left:0px;
+	margin-top:0px;
+	position:absolute;
+	top:961px;
+	left:839px;
+}
+
+div.volume5 {
+	position: relative;
+	background-color: black;
+	margin: 0 auto;
+	width: 13.7em;
+	top: .1em;
+	height: 1.7em;
+}
+
+div.volume5 a {
+	color:#ede9dd;
+	font-weight:bold !important;
+	font-size:11px;
+	position:relative;
+	top:.4em;
+}
+
+div.volume5 a em {
+	padding:0 1em 0 1em;
+	font-style:normal;
+	transform:skew(30deg,0deg);
+	-ms-transform:skew(30deg,0deg); /* IE 9 */
+	-moz-transform:skew(30deg,0deg); /* Firefox */
+	-webkit-transform:skew(30deg,0deg); /* Safari and Chrome */
+	-o-transform:skew(30deg,0deg); /* Opera */
+
+
+}
+
+div.volume5 a:hover {
+	color:#c7a17a;
+}
+
+div#volume5 a
+{
+}
+
+.carafe {
+	position: relative;
+	top: 20px;
+}
+
+.pasta-new {
+	margin-top: 50px;
+	position: relative;
+	top: 5.4rem;
+}
+
+.pasta-1 {
+	position: relative;
+	top: 1rem;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* iPad */
+
+	.coin {
+		top: 425px;
+	}
+
+	div#sidebar, div#content {
+		height: 1920px;
+	}
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+	div#pasta {
+		top: 80px;
+	}
+
+	div#content, div#sidebar {
+		height: 1975px;
+	}
+
+	.coin {
+		top: 480px;
+	}
+
+}
